@@ -1,7 +1,8 @@
 @extends('master')
 @section('content')
-<div class="container" style="opacity:0.9">
-    <div class="row">
+
+<div class="container" style="opacity:0.9" >
+
     @foreach($sections as $produit)
     <div class="col-md-3">
         <div class="thumbnail">
@@ -10,7 +11,8 @@
             
         </div>
     </div> 
-    @endforeach   
+    @endforeach  
     </div>
 </div>
+
 @stop

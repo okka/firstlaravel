@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="demo">
     <head>
         <title>Produit</title>
         <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
@@ -11,7 +11,8 @@
             header{opacity: 0.7;}
             footer{background-color: #fff; opacity: 0.9; text-align: center;}
         </style>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
     </head>
     <body>
     <header class="jumbotron" >

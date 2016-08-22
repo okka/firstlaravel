@@ -69,6 +69,7 @@ class prodcon extends Controller
     	
     	$name = $request->input('name');
         $prix = $request->input('prix');
+        $stock = $request->input('stock');
     	$produit = produit::find($id);
     	
     	if ($name!=NULL) {
@@ -76,6 +77,9 @@ class prodcon extends Controller
     	}
     	if ($prix!=NULL) {
             $produit->prix = $prix;
+        }
+        if ($stock!=NULL) {
+            $produit->stock = $stock;
         }
     	
     	$produit->save();

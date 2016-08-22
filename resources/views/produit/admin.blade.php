@@ -35,6 +35,7 @@
 			<tr>
 				<th><h3>Name</h3></th>
 				<th><h3>Prix</h3></th>
+				<th><h3>Stock</h3></th>
 				<th><h3>Update</h3></th>
 				<th><h3>Delete</h3></th>
 			</tr>
@@ -48,6 +49,9 @@
 	    </td>
 	   <td>
 	    	<span class="label label-default">{{ $produit->prix }}{!! Form::text("prix") !!}</span>
+	    </td>
+	    <td>
+	    	<span class="label label-default">{{ $produit->stock }}{!! Form::text("stock") !!}</span>
 	    </td>
 	    <td>
 	    	{!! Form::submit("Update",["class"=>"btn btn-success"]) !!}
