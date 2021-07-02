@@ -39,4 +39,4 @@ DB_PASSWORD=dbpassword
 ```
 >php artisan make:model Produit
 ```
-اااااا حكمني التفنيين مباعد نكمل خخخ
+
